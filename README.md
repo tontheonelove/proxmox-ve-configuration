@@ -47,3 +47,9 @@ boot to rescue
 dracut -f --regenerate-all
 
 ---------------------------------------------
+
+# Import QCOW2 into Proxmox
+
+qm importdisk 100 ubuntu.qcow2 local-lvm
+
+---------------------------------------------
