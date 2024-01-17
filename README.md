@@ -23,7 +23,7 @@ OR  GUI Config
 
 #systemctl restart networking
 
-
+--------------------------------------------
 
 
 # /dev/sda has a holder | Solution
@@ -31,5 +31,8 @@ OR  GUI Config
 #pvs
 
 #vgremove (your storage name)
+
+
+---------------------------------------------
 
 
