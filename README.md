@@ -37,3 +37,13 @@ OR  GUI Config
 # Migrate VM to Proxmox
 
 qm importdisk 100 vmdkname.vmdk local-lvm --format raw
+
+---------------------------------------------
+
+# fails to boot error: dracut:/# Centos 
+
+boot to rescue  
+
+dracut -f --regenerate-all
+
+---------------------------------------------
