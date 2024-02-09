@@ -67,4 +67,18 @@ Create new guest
 
 ---------------------------------------------
 
+# Enable qemu-guest-agent
+
+For linux  
+
+#apt-get install qemu-guest-agent  (Ubuntu)
+
+#yum install qemu-guest-agent (CentOS)
+
+#systemctl start qemu-guest-agent
+
+#systemctl enable qemu-guest-agent
+
+
+
 
