@@ -1,9 +1,5 @@
 # proxmox-ve-configuration
 
-Config Cluster 
-
----------------------------------------------
-
 # Config VLAN
 
 #nano /etc/network/interfaces
