@@ -71,9 +71,9 @@ Create new guest
 
 For linux  
 
-#apt-get install qemu-guest-agent  (Ubuntu)
+#apt-get install qemu-guest-agent -y  (Ubuntu)
 
-#yum install qemu-guest-agent (CentOS)
+#yum install qemu-guest-agent -y (CentOS)
 
 #systemctl start qemu-guest-agent
 
