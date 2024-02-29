@@ -79,6 +79,10 @@ For linux
 
 #systemctl enable qemu-guest-agent
 
+# Unlock VMID
+
+#qm unlock <VMID>
+
 
 
 
