@@ -37,7 +37,9 @@ OR  GUI Config
 ---------------------------------------------
 # Migrate VM to Proxmox
 
-qm importdisk 100 vmdkname.vmdk local-lvm --format raw
+qm importdisk 100 vmdkname.vmdk local-lvm --format raw    <-- For Node Disk
+qm importdisk 100 vmdkname.vmdk NAS --format raw    <-- For NAS Disk
+qm importdisk 100 vmdkname.vmdk pool --format raw    <-- For Ceph Disk
 
 ---------------------------------------------
 
