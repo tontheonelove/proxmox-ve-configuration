@@ -87,6 +87,10 @@ For linux
 
 #qm unlock <VMID>
 
+# Fix PG Alert 
+
+#restart all osd and monitor 
+
 
 
 
