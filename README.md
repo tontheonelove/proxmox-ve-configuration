@@ -91,6 +91,9 @@ For linux
 
 #restart all osd and monitor 
 
+# Unmount an  NFSshare
+#fusermount -uz /mnt/pve/NASxxx
+
 
 
 
