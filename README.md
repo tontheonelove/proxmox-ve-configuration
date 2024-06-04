@@ -94,6 +94,9 @@ For linux
 # Unmount an  NFSshare
 #fusermount -uz /mnt/pve/NASxxx
 
+# remove vm
+#qm destroy <VMID>
+
 
 
 
