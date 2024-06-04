@@ -85,7 +85,7 @@ For linux
 
 # Unlock VMID
 
-#qm unlock <VMID>
+#qm unlock (VMID)
 
 # Fix PG Alert 
 
@@ -95,7 +95,7 @@ For linux
 #fusermount -uz /mnt/pve/NASxxx
 
 # remove vm
-#qm destroy <VMID>
+#qm destroy (VMID)
 
 
 
