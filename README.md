@@ -109,5 +109,12 @@ For linux
 insert  # front #UUID=XXXXXXXX /boot/efi vfat defaults 0 1
 
 
+# Fix listing images failed/ (2) No such file or directory (500)
+
+#rbd ls -l [cephpool]
+
+#rbd rm vm-[id]-disk-[id] -p [cephpool]
+
+
 
 
