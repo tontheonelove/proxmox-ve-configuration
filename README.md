@@ -5,6 +5,7 @@
 First Local Network (access mode)  =>  ens18 and ens19  => bond0
 Seconsdary public network with Vlan (trunk mode) => ens20 and ens21  => bond1
 
+```
 auto lo
 iface lo inet loopback
 
@@ -46,7 +47,7 @@ iface vmbr1 inet static
         bridge-fd 0
         bridge-vlan-aware yes
         bridge-vids 2-4094
-
+```
 
 --------------------------------------------
 
