@@ -8,6 +8,9 @@ First Local Network (access mode)  =>  ens18 and ens19  => bond0
 
 Seconsdary public network with Vlan (trunk mode) => ens20 and ens21  => bond1
 
+vmbr0  is Interface access vlan (from switch) for manage proxmox (local)
+
+vmbr1.18  is Interface Vlan 18 trunk mode (from switch)  for manage proxmox (public)
 ```
 auto lo
 iface lo inet loopback
