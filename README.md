@@ -56,7 +56,7 @@ iface vmbr1 inet static
 #nano /etc/network/interfaces
 
 #ADD THIS#  Example use VLAN 2  
-
+```
 auto vmbr0.2
 
 iface vmbr0.2 inet static
@@ -64,7 +64,7 @@ iface vmbr0.2 inet static
         address 10.2.2.254/24
         
         gateway 10.2.2.1
-
+```
 
 ---------------------------------------------
 
