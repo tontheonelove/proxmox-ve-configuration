@@ -88,9 +88,9 @@ OR  GUI Config
 
 <img src=3704490324.png/>
 
-
+```
 #systemctl restart networking
-
+```
 --------------------------------------------
 
 
