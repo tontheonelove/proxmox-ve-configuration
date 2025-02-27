@@ -1,6 +1,6 @@
 # proxmox-ve-configuration
 
-# config loadbanalce or boding interface
+# config loadbalance or boding interface
 
 First Local Network (access mode)  =>  ens18 and ens19  => bond0
 
