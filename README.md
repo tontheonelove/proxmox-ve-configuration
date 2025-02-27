@@ -2,9 +2,9 @@
 
 # config loadbalance or boding interface
 
-First Local Network (access mode)  =>  ens18 and ens19  => bond0
+First Local Network (access mode)  =>  ens18 and ens19  => bond1
 
-Seconsdary public network with Vlan (trunk mode) => ens20 and ens21  => bond1
+Seconsdary public network with Vlan (trunk mode) => ens20 and ens21  => bond0
 
 ```
 auto lo
