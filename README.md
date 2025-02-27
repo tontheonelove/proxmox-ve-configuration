@@ -1,5 +1,9 @@
 # proxmox-ve-configuration
 
+# Cluster Restart
+```
+systemctl start pve-cluster
+```
 # ceph restart 
 ```
 systemctl restart ceph-mon.target
