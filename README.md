@@ -1,5 +1,10 @@
 # proxmox-ve-configuration
 
+# ceph restart 
+```
+systemctl restart ceph-mon.target
+```
+
 # config loadbalance or boding interface
 
 #nano /etc/network/interfaces
