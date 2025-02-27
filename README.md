@@ -1,5 +1,52 @@
 # proxmox-ve-configuration
 
+# config loadbanalce or boding interface
+
+First Local Network (access mode)  =>  ens18 and ens19  => bond0
+Seconsdary public network with Vlan (trunk mode) => ens20 and ens21  => bond1
+
+auto lo
+iface lo inet loopback
+
+iface ens18 inet manual
+
+iface ens19 inet manual
+
+auto ens20
+iface ens20 inet manual
+
+auto ens21
+iface ens21 inet manual
+
+auto bond0
+iface bond0 inet manual
+        bond-slaves ens20 ens21
+        bond-miimon 100
+        bond-mode balance-rr
+
+auto bond1
+iface bond1 inet manual
+        bond-slaves ens18 ens19
+        bond-miimon 100
+        bond-mode balance-rr
+
+auto vmbr0
+iface vmbr0 inet static
+        address xxx.xxx.xxx.xxx/24
+        bridge-ports bond1
+        bridge-stp off
+        bridge-fd 0
+
+auto vmbr1
+iface vmbr1 inet static
+        address xxx.xxx.xxx.xxx/24
+        gateway xxx.xxx.xxx.xxx
+        bridge-ports bond0
+        bridge-stp off
+        bridge-fd 0
+        bridge-vlan-aware yes
+        bridge-vids 2-4094
+
 # Config VLAN
 
 #nano /etc/network/interfaces
