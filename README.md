@@ -1,5 +1,9 @@
 # proxmox-ve-configuration
 
+# Restart Service when Change host IP
+```
+systemctl restart pve-cluster && systemctl restart corosync
+```
 # Cluster Restart
 ```
 systemctl start pve-cluster
