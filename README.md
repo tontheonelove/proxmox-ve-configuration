@@ -2,6 +2,8 @@
 
 # config loadbalance or boding interface
 
+#nano /etc/network/interfaces
+
 First Local Network (access mode)  =>  ens18 and ens19  => bond0
 
 Seconsdary public network with Vlan (trunk mode) => ens20 and ens21  => bond1
