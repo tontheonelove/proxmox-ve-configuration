@@ -47,6 +47,9 @@ iface vmbr1 inet static
         bridge-vlan-aware yes
         bridge-vids 2-4094
 
+
+--------------------------------------------
+
 # Config VLAN
 
 #nano /etc/network/interfaces
