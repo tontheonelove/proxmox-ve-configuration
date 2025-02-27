@@ -37,9 +37,7 @@ iface bond0 inet manual
         bond-mode balance-rr
 
 auto vmbr1
-iface vmbr1 inet static
-        address xxx.xxx.xxx.xxx/24
-        gateway xxx.xxx.xxx.xxx
+iface vmbr1 inet manual
         bridge-ports bond1
         bridge-stp off
         bridge-fd 0
@@ -52,6 +50,11 @@ iface vmbr0 inet static
         bridge-ports bond0
         bridge-stp off
         bridge-fd 0
+
+auto vmbr1.18
+iface vmbr1.18 inet static
+        address xxx.xxx.xxx.xxx/24
+        gateway xxx.xxx.xxx.xx
 ```
 
 --------------------------------------------
