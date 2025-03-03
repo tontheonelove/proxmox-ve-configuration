@@ -1,5 +1,14 @@
 # proxmox-ve-configuration
 
+# Using Custom NTP Servers
+
+nano /etc/chrony/chrony.conf:
+```
+server ntp1.example.com iburst
+server ntp2.example.com iburst
+server ntp3.example.com iburst
+```
+
 # Restart Service when Change host IP
 ```
 systemctl restart pve-cluster && systemctl restart corosync
