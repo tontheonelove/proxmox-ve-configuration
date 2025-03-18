@@ -1,5 +1,13 @@
 # proxmox-ve-configuration
 
+# Proxmox – Unable to wipe diskhas a holder (500) – on mirrored disks
+
+```
+wipefs -fa /dev/sdb
+```
+
+Restart Server
+
 # Using Custom NTP Servers
 
 #nano /etc/chrony/chrony.conf:
