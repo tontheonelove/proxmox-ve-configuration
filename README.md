@@ -7,15 +7,6 @@
 
 ✅ [Custom NTP Server](Custom%20NTP%20Servers.md)
 
-# Proxmox – Unable to wipe diskhas a holder (500) – on mirrored disks
-
-```
-wipefs -fa /dev/XXX (your-disk name)
-```
-
-Restart Server
-
-
 # Restart Service when Change host IP
 ```
 systemctl restart pve-cluster && systemctl restart corosync
