@@ -26,15 +26,6 @@ systemctl start pve-cluster
 ```
 systemctl restart ceph-mon.target
 ```
-
----------------------------------------------
-
-# fails to boot error: dracut:/# Centos 
-
-boot to rescue  
-```
-dracut -f --regenerate-all
-```
 ---------------------------------------------
 
 # Import QCOW2 into Proxmox
