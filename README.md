@@ -17,7 +17,7 @@
 
 🪛 [FIX fails to boot error: dracut:/# Centos](Fix%20fails%20to%20boot%20error%3A%20dracut%3A%20Centos.md)
 
-🪛 [FIX ERROR: migration aborted (duration 00:00:00): Can't connect to destination address using public key]()
+🪛 [FIX ERROR: migration aborted (duration 00:00:00): Can't connect to destination address using public key](Can't%20connect%20to%20destination%20address%20using%20public%20key.md)
 
 
 # Restart Service when Change host IP
