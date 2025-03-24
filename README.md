@@ -46,11 +46,6 @@ systemctl start pve-cluster
 systemctl restart ceph-mon.target
 ```
 ---------------------------------------------
-
-# Fix PG Alert 
-```
-#restart all osd and monitor 
-```
 # Unmount an  NFSshare
 ```
 #fusermount -uz /mnt/pve/NASxxx
