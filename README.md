@@ -25,14 +25,6 @@ systemctl start pve-cluster
 systemctl restart ceph-mon.target
 ```
 
-
-# /dev/sda has a holder | Solution
-```
-#pvs
-
-#vgremove (your storage name)
-```
-
 ---------------------------------------------
 # Migrate VM to Proxmox
 
