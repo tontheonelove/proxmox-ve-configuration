@@ -15,7 +15,7 @@
 
 ✅ [Detroy Ceph Pool (Force)](Detroy%20Ceph%20Pool%20(Force).md)
 
-✅ [Import QCOW2 FILE into Proxmox]()
+✅ [Import QCOW2 FILE into Proxmox](Import%20QCOW2%20FILE%20into%20Proxmox.md)
 
 🪛 [Fix Unable to wipe diskhas a holder (500)](Fix%20Unable%20to%20wipe%20diskhas%20a%20holder%20(500).md)
 
