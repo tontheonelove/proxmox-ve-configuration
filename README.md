@@ -59,11 +59,6 @@ systemctl restart ceph-mon.target
 #qm destroy (VMID)
 ```
 
-# Removing the Node
-```
-#pvecm delnode nodename
-```
-
 
 
 
