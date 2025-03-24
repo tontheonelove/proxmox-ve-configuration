@@ -13,7 +13,7 @@
 
 ✅ [Enable qemu-guest-agent](Enable%20qemu-guest-agent.md)
 
-✅ [Detroy Ceph Pool (Force)]()
+✅ [Detroy Ceph Pool (Force)](Detroy%20Ceph%20Pool%20(Force).md)
 
 🪛 [Fix Unable to wipe diskhas a holder (500)](Fix%20Unable%20to%20wipe%20diskhas%20a%20holder%20(500).md)
 
