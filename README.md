@@ -36,17 +36,6 @@ qm importdisk 100 ubuntu.qcow2 local-lvm
 ```
 ---------------------------------------------
 
-# IMPORT OVA TO PROXMOX
-
-upload ove to proxmox host  or NAS
-```
-#tar xvf openppm.ova
-```
-Create new guest
-```
-#qm importdisk 100 yourfile.vmdk local-lvm -format qcow2
-```
----------------------------------------------
 
 # Enable qemu-guest-agent
 
