@@ -32,6 +32,8 @@
 
 🪛 [Fix VM is locked ](Fix%20VM%20has%20locked.md)
 
+🪛 [Fix PG Alert](Fix%20PG%20Alert%20.md)
+
 
 # Restart Service when Change host IP
 ```
