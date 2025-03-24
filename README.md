@@ -37,12 +37,6 @@
 🪛 [Fix PG Alert](Fix%20PG%20Alert%20.md)
 
 
----------------------------------------------
-# Unmount an  NFSshare
-```
-#fusermount -uz /mnt/pve/NASxxx
-```
-
 # remove vm
 ```
 #qm destroy (VMID)
