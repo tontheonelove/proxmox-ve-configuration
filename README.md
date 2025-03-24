@@ -39,11 +39,6 @@
 🪛 [Fix PG Alert](Fix%20PG%20Alert%20.md)
 
 
-# remove vm
-```
-#qm destroy (VMID)
-```
-
 
 
 
