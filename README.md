@@ -26,6 +26,8 @@
 
 🪛 [Fix listing images failed/ (2) No such file or directory (500)](Fix%20listing%20images%20failed.md)
 
+🪛 [Fix booting in emergency mode](Fix%20booting%20in%20emergency%20mode.md)
+
 
 # Restart Service when Change host IP
 ```
