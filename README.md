@@ -4,6 +4,7 @@
 
 ### Config List Update 24 - 3 - 25
 - [Load Balancer](loadbalance.md)
+- [Custom NTP Server]()
 
 # Proxmox – Unable to wipe diskhas a holder (500) – on mirrored disks
 
