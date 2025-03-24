@@ -43,10 +43,6 @@ systemctl restart ceph-mon.target
 ```
 ---------------------------------------------
 
-# Unlock VMID
-```
-#qm unlock (VMID)
-```
 # Fix PG Alert 
 ```
 #restart all osd and monitor 
