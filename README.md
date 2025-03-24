@@ -7,6 +7,8 @@
 
 ✅ [Custom NTP Server](Custom%20NTP%20Servers.md)
 
+🪛 [Fix Unable to wipe diskhas a holder (500)]
+
 # Restart Service when Change host IP
 ```
 systemctl restart pve-cluster && systemctl restart corosync
