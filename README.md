@@ -1,4 +1,6 @@
-# proxmox-ve-configuration
+# Proxmox-ve-Configuration Guide
+
+<img src= proxmox.png/>
 
 # Proxmox – Unable to wipe diskhas a holder (500) – on mirrored disks
 
