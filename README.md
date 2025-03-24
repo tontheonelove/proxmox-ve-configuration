@@ -11,6 +11,8 @@
 
 ✅ [Migrate VM To Proxmox](Migrate%20VM%20to%20Proxmox.md)
 
+✅ [Enable qemu-guest-agent]()
+
 🪛 [Fix Unable to wipe diskhas a holder (500)](Fix%20Unable%20to%20wipe%20diskhas%20a%20holder%20(500).md)
 
 🪛 [FIX fails to boot error: dracut:/# Centos](Fix%20fails%20to%20boot%20error%3A%20dracut%3A%20Centos.md)
