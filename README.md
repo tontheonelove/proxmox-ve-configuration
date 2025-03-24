@@ -80,10 +80,6 @@ insert  # front #UUID=XXXXXXXX /boot/efi vfat defaults 0 1
 #rbd rm vm-[id]-disk-[id] -p [cephpool]
 ```
 
-# Detroy Ceph Pool (Force)
-```
-#pveceph pool destroy <pool-name> --force
-```
 
 
 
