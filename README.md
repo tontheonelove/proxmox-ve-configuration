@@ -28,7 +28,7 @@
 
 🪛 [Fix booting in emergency mode](Fix%20booting%20in%20emergency%20mode.md)
 
-🪛 [Fix ]
+🪛 [Fix VM is locked ](Fix%20VM%20has%20locked.md)
 
 
 # Restart Service when Change host IP
