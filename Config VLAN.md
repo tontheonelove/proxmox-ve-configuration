@@ -14,3 +14,15 @@ iface vmbr0.2 inet static
         
         gateway 10.2.2.1
 ```
+
+
+---------------------------------------------
+
+## OR  GUI Config
+
+<img src=3704490324.png/>
+
+```
+#systemctl restart networking
+```
+--------------------------------------------
