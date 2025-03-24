@@ -24,6 +24,8 @@
 
 ✅ [Unmount NFS Disk](Unmount%20an%20%20NFS.md)
 
+✅ [Remove VM](remove%20vm.md)
+
 🪛 [Fix Unable to wipe diskhas a holder (500)](Fix%20Unable%20to%20wipe%20diskhas%20a%20holder%20(500).md)
 
 🪛 [FIX fails to boot error: dracut:/# Centos](Fix%20fails%20to%20boot%20error%3A%20dracut%3A%20Centos.md)
@@ -37,6 +39,8 @@
 🪛 [Fix VM is locked ](Fix%20VM%20has%20locked.md)
 
 🪛 [Fix PG Alert](Fix%20PG%20Alert%20.md)
+
+
 
 
 
