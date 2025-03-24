@@ -1,4 +1,4 @@
-# Fix booting in emergency mode
+# Fix booting in emergency mode (Physical Server)
 ```
 nano nano /etc/fstab
 ```
