@@ -7,7 +7,7 @@
 
 ✅ [Custom NTP Server](Custom%20NTP%20Servers.md)
 
-🪛 [Fix Unable to wipe diskhas a holder (500)]
+🪛 [Fix Unable to wipe diskhas a holder (500)](Fix%20Unable%20to%20wipe%20diskhas%20a%20holder%20(500).md)
 
 # Restart Service when Change host IP
 ```
