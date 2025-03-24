@@ -26,18 +26,6 @@ systemctl restart ceph-mon.target
 ```
 
 
----------------------------------------------
-
-OR  GUI Config
-
-<img src=3704490324.png/>
-
-```
-#systemctl restart networking
-```
---------------------------------------------
-
-
 # /dev/sda has a holder | Solution
 ```
 #pvs
