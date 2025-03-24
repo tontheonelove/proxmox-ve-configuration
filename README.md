@@ -2,7 +2,8 @@
 
 <img src= proxmox.png/>
 
-- [Load Balancer]()
+### Config List Update 24 - 3 - 25
+- [Load Balancer](loadbalance.md)
 
 # Proxmox – Unable to wipe diskhas a holder (500) – on mirrored disks
 
