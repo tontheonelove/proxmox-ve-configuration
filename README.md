@@ -5,7 +5,7 @@
 ### Config List Update 24 - 3 - 25
 ✅ [Load Balancer](loadbalance.md)
 
-✅ [Custom NTP Server]()
+✅ [Custom NTP Server](Custom%20NTP%20Servers.md)
 
 # Proxmox – Unable to wipe diskhas a holder (500) – on mirrored disks
 
@@ -15,15 +15,6 @@ wipefs -fa /dev/XXX (your-disk name)
 
 Restart Server
 
-# Using Custom NTP Servers
-
-#nano /etc/chrony/chrony.conf:
-```
-server ntp1.example.com iburst
-server ntp2.example.com iburst
-server ntp3.example.com iburst
-```
-#systemctl restart chronyd
 
 # Restart Service when Change host IP
 ```
