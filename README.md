@@ -11,7 +11,7 @@
 
 ✅ [Migrate VM To Proxmox](Migrate%20VM%20to%20Proxmox.md)
 
-✅ [Enable qemu-guest-agent]()
+✅ [Enable qemu-guest-agent](Enable%20qemu-guest-agent.md)
 
 🪛 [Fix Unable to wipe diskhas a holder (500)](Fix%20Unable%20to%20wipe%20diskhas%20a%20holder%20(500).md)
 
