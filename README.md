@@ -36,13 +36,6 @@ systemctl restart ceph-mon.target
 ```
 ---------------------------------------------
 
-# Import QCOW2 into Proxmox
-```
-qm importdisk 100 ubuntu.qcow2 local-lvm
-```
----------------------------------------------
-
-
 # Unlock VMID
 ```
 #qm unlock (VMID)
