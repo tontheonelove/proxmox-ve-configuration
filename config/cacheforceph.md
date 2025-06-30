@@ -16,12 +16,12 @@
 
 ## for bash
 
-### for block.db only
+### 👉 for block.db only
 ```
 pveceph osd create /dev/sda --block-db /dev/nvme0n1
 ```
 
-### for block.db and block.wal
+### 👉 for block.db and block.wal
 ```
 pveceph osd create /dev/sda --block-db /dev/nvme0n1 --block-wal /dev/nvme0n1
 ```
