@@ -87,23 +87,23 @@ In Proxmox VE GUI (Web UI), when you create a Ceph Pool, there is no option to "
 
 ## Steps in GUI to bind Pool to SATA or NVMe
 
-Go to GUI:
+#### 1. Go to GUI:
 
-> Ceph > Pools
+Ceph > Pools
 
-Click "Create" to create a new Pool
+#### 2.Click "Create" to create a new Pool
 
-Name the Pool
+#### 3.Name the Pool
 
 e.g. sata-pool or nvme-pool
 
-In "Crush Rule" field, you will have options:
+#### 4.In "Crush Rule" field, you will have options:
 
 e.g. replicated_rule (default)
 
 or sata-rule, nvme-rule (the one you created)
 
-Select the CRUSH Rule you want to use (bound to OSD class):
+#### 5.Select the CRUSH Rule you want to use (bound to OSD class):
 
 - If sata-rule is selected → Only hdd class OSD will be used
 
