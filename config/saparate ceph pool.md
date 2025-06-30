@@ -1,7 +1,7 @@
-# How to Saparate ceph pool
+# 🔰How to Saparate ceph pool🔰
 
 
-##  Example 
+##  ✅Example 
 
 There are 3 hosts with Proxmox VE installed and Ceph installed
 There are 2 types of OSD:
@@ -12,19 +12,19 @@ There are 2 types of OSD:
 
 Install OSD for all 3 hosts, clearly separating device types, such as:
 
-- Host 1:
+- 💻Host 1:
 
 /dev/sdX → OSD SATA
 
 /dev/nvme0n1 → OSD NVMe
 
-- Host 2:
+- 💻Host 2:
 
 /dev/sdY → OSD SATA
 
 /dev/nvme1n1 → OSD NVMe
 
-- Host 3:
+- 💻Host 3:
 
 /dev/sdZ → OSD SATA
 
