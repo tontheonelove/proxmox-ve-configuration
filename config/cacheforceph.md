@@ -33,6 +33,8 @@ pveceph osd create /dev/sda --block-db /dev/nvme0n1 --block-wal /dev/nvme0n1
 
 <img src= /pic/s1.png />
 
+----------------------------------------
+
 ### for block.db and block.wal
 
 <img src= /pic/s2.png />
