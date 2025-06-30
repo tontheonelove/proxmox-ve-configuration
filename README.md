@@ -4,6 +4,8 @@
 
 ### Config List Update 30 - 6 - 25
 
+✅ [Saparate Ceph Pool](config/saparate%20ceph%20pool.md)
+
 ✅ [Cache R/W Ceph HDD Storage](config/cacheforceph.md)
 
 ✅ [Load Balancer](loadbalance.md)
