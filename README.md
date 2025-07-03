@@ -4,6 +4,8 @@
 
 ### Config List Update 30 - 6 - 25
 
+✅ [Removing Host and Ceph OSD](config/Removing%20Host%20and%20Ceph%20OSD.md)
+
 ✅ [Saparate Ceph Pool](config/saparate%20ceph%20pool.md)
 
 ✅ [Cache R/W Ceph HDD Storage](config/cacheforceph.md)
