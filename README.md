@@ -2,7 +2,7 @@
 
 <img src= proxmox.png/>
 
-### Config List Update 30 - 6 - 25
+### Config List Update 17 - 7 - 25
 
 ✅ [Removing Host and Ceph OSD](config/Removing%20Host%20and%20Ceph%20OSD.md)
 
@@ -31,6 +31,10 @@
 ✅ [Unmount NFS Disk](Unmount%20an%20%20NFS.md)
 
 ✅ [Remove VM](remove%20vm.md)
+
+## Fix Issue Here
+
+🪛 [Fix pgs not deep-scrubbed in time](config/Fix%20pgs%20not%20deep-scrubbed%20in%20time.md)
 
 🪛 [Fix Unable to wipe diskhas a holder (500)](Fix%20Unable%20to%20wipe%20diskhas%20a%20holder%20(500).md)
 
