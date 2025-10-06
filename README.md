@@ -2,7 +2,7 @@
 
 <img src= proxmox.png/>
 
-### Config List Update 17 - 7 - 25
+### Config List Update 6 - 10 - 25
 
 ✅ [Removing Host and Ceph OSD](config/Removing%20Host%20and%20Ceph%20OSD.md)
 
