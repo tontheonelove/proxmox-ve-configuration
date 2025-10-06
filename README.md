@@ -34,6 +34,8 @@
 
 ## Fix Issue Here
 
+🪛 [Fix system buttons on /dev/input/event0 (Power Button ) (The power button is broken.)](config/Fix%20pgs%20not%20deep-scrubbed%20in%20time.md)
+
 🪛 [Fix pgs not deep-scrubbed in time](config/Fix%20pgs%20not%20deep-scrubbed%20in%20time.md)
 
 🪛 [Fix Unable to wipe diskhas a holder (500)](Fix%20Unable%20to%20wipe%20diskhas%20a%20holder%20(500).md)
