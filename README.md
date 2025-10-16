@@ -2,7 +2,10 @@
 
 <img src= proxmox.png/>
 
-### Config List Update 6 - 10 - 25
+### Config List Update 16 - 10 - 25
+
+
+✅ [Removing Host and Ceph OSD](config/Steps%20to%20remove%20a%20host%20from%20a%20Proxmox%20Cluster%20%2B%20Ceph.md)
 
 ✅ [Removing Host and Ceph OSD](config/Removing%20Host%20and%20Ceph%20OSD.md)
 
