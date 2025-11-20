@@ -2,7 +2,7 @@
 
 <img src= proxmox.png/>
 
-### Config List Update 16 - 10 - 25
+### Config List Update 20 - 11 - 25
 
 
 ✅ [How to Bind NIC Mellanox (for directly use in vm)](/config/Bind%20NIC%20Mellanox.md)
