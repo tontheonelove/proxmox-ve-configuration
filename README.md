@@ -7,6 +7,8 @@
 
 ✅ [Steps to remove a host from a Proxmox Cluster + Ceph](config/Steps%20to%20remove%20a%20host%20from%20a%20Proxmox%20Cluster%20%2B%20Ceph.md)
 
+✅ [Steps to remove a host from a Proxmox Cluster + Ceph](config/Steps%20to%20remove%20a%20host%20from%20a%20Proxmox%20Cluster%20%2B%20Ceph.md)
+
 ✅ [Removing Host and Ceph OSD](config/Removing%20Host%20and%20Ceph%20OSD.md)
 
 ✅ [Saparate Ceph Pool](config/saparate%20ceph%20pool.md)
