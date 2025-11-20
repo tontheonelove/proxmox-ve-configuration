@@ -5,7 +5,7 @@
 ### Config List Update 16 - 10 - 25
 
 
-✅ [Steps to remove a host from a Proxmox Cluster + Ceph](/config/Bind%20NIC%20Mellanox.md)
+✅ [How to Bind NIC Mellanox (for directly use in vm)](/config/Bind%20NIC%20Mellanox.md)
 
 ✅ [Steps to remove a host from a Proxmox Cluster + Ceph](config/Steps%20to%20remove%20a%20host%20from%20a%20Proxmox%20Cluster%20%2B%20Ceph.md)
 
