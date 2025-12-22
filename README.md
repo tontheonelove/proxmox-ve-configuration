@@ -4,6 +4,7 @@
 
 ### Config List Update 20 - 11 - 25
 
+✅ [How to Bind NIC Mellanox (for directly use in vm)](/config/How%20to%20upgrade%20proxmox%20Proxmox%20VE%208.xxxx%20→%208.4.1.md)
 
 ✅ [How to Bind NIC Mellanox (for directly use in vm)](/config/Bind%20NIC%20Mellanox.md)
 
