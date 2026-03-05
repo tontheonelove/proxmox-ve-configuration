@@ -4,7 +4,7 @@
 
 ### Config List Update 22 - 12 - 25
 
-✅ [How to upgrade proxmox Proxmox VE 8.xxxx → 8.4.1](/config/How%20to%20upgrade%20proxmox%20Proxmox%20VE%208.xxxx%20→%208.4.1.md)
+✅ [How to upgrade proxmox Proxmox VE 8.xxxx → 8.4.1](/config/Web%20interface%20returns%20Connection%20error%20596%3A%20Broken%20pipe.md)
 
 ✅ [How to Bind NIC Mellanox (for directly use in vm)](/config/Bind%20NIC%20Mellanox.md)
 
