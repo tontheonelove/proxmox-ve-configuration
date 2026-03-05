@@ -15,117 +15,53 @@
 ⚠️ At least 2 nodes must have quorum at all times.
 
 
-### 1. Check the cluster status.
+## Phase 1: เตรียมระบบ (ทำครั้งเดียวบน Node ใดก็ได้)ล็อกสถานะ Ceph เพื่อไม่ให้ข้อมูลย้ายไปมาขณะ Reboot:Bashceph osd set noout
 
 ```
-pvecm status
+ceph osd set nobackfill
+ceph osd set norecover
 ```
 
-## * Do not upgrade if you do not have enough quorum.
+เช็กความพร้อมครั้งสุดท้าย: เข้า GUI ดูว่าทุกอย่างเป็นสีเขียว (Health OK)Phase 2: เริ่มอัปเกรดทีละ Node (ทำจาก Node 1 -> 2 -> 3)ทำกับ Node ที่เลือก 
 
-### 2. Check Ceph status.
+(สมมติเริ่มที่ Node 1):ย้าย VM ออก: ใช้เมนู Bulk Migrate ย้าย VM ทั้งหมดจาก Node 1 ไปไว้ที่ Node 2 และ 3 (Live Migration)อัปเดต Repository: ตรวจสอบว่า 
 
+/etc/apt/sources.list เป็น bookworm แล้วรันคำสั่งอัปเกรด:Bashapt update
+
+```
+apt dist-upgrade -y
+```
+
+
+Reboot: สั่ง reboot เพื่อให้ Kernel ใหม่ทำงานตรวจสอบหลัง Reboot: * เช็กเวอร์ชันด้วยคำสั่ง pveversion (ต้องเป็น 8.4)
+
+เช็กเมนู Ceph > OSD ใน GUI ว่า OSD ของ Node นี้กลับมาเป็นสถานะ up และ in ทั้งหมดย้าย VM กลับ: ย้าย VM บางส่วนกลับมาที่ Node 1 เพื่อทดสอบความเรียบร้อย
+
+[เมื่อ Node 1 ปกติแล้ว ให้สลับไปทำแบบเดียวกันกับ Node 2 และ Node 3 จนครบ]Phase 3: ปิดงาน (ทำหลังอัปเกรดครบ 3 Nodes)
+
+ปลดล็อก Ceph: เพื่อให้ระบบกลับมาทำงานเต็มรูปแบบ:Bashceph osd unset noout
+
+```
+ceph osd unset nobackfill
+ceph osd unset norecover
+```
+
+ตรวจสอบสุขภาพรวม: 
+รัน 
 ```
 ceph -s
 ```
-✅ HEALTH_OK
+ต้องเห็นสถานะเป็น HEALTH_OKสรุปคำสั่งสำคัญที่ต้องใช้:
 
-### * If the OSD is down, please fix it first.
+คำสั่งวัตถุประสงค์
 
-### 3. Backup (Highly Recommended)
+eph -sเช็กสุขภาพ 
 
-Backup critical VMs/CTs.
+Cephpveversion -vเช็กเวอร์ชัน 
 
-Or take a snapshot if your storage allows.
+Proxmox อย่างละเอียด
 
-
-
-### Upgrade Order (Very Important)
-
-#### Recommended Order:
-
-1. The node with no critical VMs or the fewest VMs.
-
-2. The second node.
-
-3. The final node (Master/Primary).
-
-
-## Upgrade Procedure per Host (One machine at a time):
-
-1️⃣ Live migrate VMs/CTs out of that node.
-
-Move all VMs/CTs to another node (or at least maintain the quorum).
-
-2️⃣ Turn off the Ceph OSD on that node (if it's a Ceph node). (Config From GUI)
-
-3️⃣ Update package list
-
-````
-apt update
-````
-
-4️⃣ Upgrade Proxmox
-
-````
-apt full-upgrade
-````
-
-If prompted:
-
-✅ Keep config → Select Keep local version
-
-✅ Service restart → Answer Yes
-
-
-6️⃣ After booting back up, check the version.
-
-````
-pveversion
-````
-
-7️⃣ Turn Ceph OSD back on (Config From GUI).
-
-````
-ceph -s
-````
-
-8️⃣ Move the VM back to/to the next node.
-
-
-## ‼️ Impact on Cluster & Ceph
-
-✔️ Cluster config will not be lost
-
-✔️ No need to recreate the cluster
-
-✔️ API/GUI will work normally
-
-⚠️ During a reboot, one node will be lost → Quorum is required.
-
-
-## Strictly Prohibited ❌
-
-❌ Do not upgrade multiple nodes simultaneously.
-
-❌ Do not reboot the entire cluster at once.
-
-❌ Do not upgrade if the quorum is insufficient.
-
-❌ Do not upgrade if Ceph health = ERROR.
-
-
-## Short Checklist Before You Begin:
-
-✅pvecm status → quorum yes
-
-✅ceph -s → health ok
-
-✅Backup completed
-
-✅Upgrade host by host
-
-
+apt update && apt dist-upgrade -y   คำสั่งอัปเกรดหลักpvecm statusเช็กสถานะการเชื่อมต่อของ Cluster
 
 
 
