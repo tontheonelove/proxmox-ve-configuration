@@ -40,6 +40,8 @@
 
 ## Fix Issue Here
 
+🪛 [Web interface returns Connection error 596: Broken pipe.)](config/The%20power%20button%20is%20broken.md)
+
 🪛 [Fix system buttons on /dev/input/event0 (Power Button ) (The power button is broken.)](config/The%20power%20button%20is%20broken.md)
 
 🪛 [Fix pgs not deep-scrubbed in time](config/Fix%20pgs%20not%20deep-scrubbed%20in%20time.md)
