@@ -1,7 +1,7 @@
 # Using Custom NTP Servers
 
 `````
-nano /etc/chrony/chrony.conf:
+nano /etc/chrony/chrony.conf
 `````
 
 add your custom 
