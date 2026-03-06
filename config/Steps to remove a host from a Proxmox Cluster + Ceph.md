@@ -24,6 +24,9 @@ ceph osd rm <osd-id>
 ### If there is a monitor
 ```````
 ceph mon remove <hostname>
+
+rm -rf /etc/pve/nodes/<nodename>
+
 ```````
 
 ### If there is amanager
