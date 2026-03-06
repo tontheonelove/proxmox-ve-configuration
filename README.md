@@ -2,7 +2,7 @@
 
 <img src= proxmox.png/>
 
-### Config List Update 22 - 12 - 25
+### Config List Update 6 - 3 - 26
 
 ✅ [How to upgrade proxmox Proxmox VE 8.xxxx → 8.4.1](/config/How%20to%20upgrade%20proxmox%20Proxmox%20VE%208.xxxx%20→%208.4.1.md)
 
